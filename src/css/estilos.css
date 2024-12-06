@@ -108,12 +108,8 @@ body{
     padding: 10px;
 }
 
-.botao:active{
-    color: #FFFFFF;
-    background-color: hsl(300, 69%, 71%);
-}
-
 .botao:hover{
+    color: #FFFFFF;
     background-color: hsl(300, 69%, 71%);
     transition: 0.3s;
 }
@@ -122,10 +118,6 @@ body{
     color: hsl(300, 69%, 71%);
     border: 1px solid hsl(300, 69%, 71%);
     transition: 0.3s;
-}
-.rodape .redes-sociais a:active{
-    color: hsl(300, 69%, 71%);
-    border: 1px solid hsl(300, 69%, 71%);
 }
 
 .rodape .redes-sociais a:hover{
