@@ -113,9 +113,24 @@ body{
     background-color: hsl(300, 69%, 71%);
 }
 
+.botao:hover{
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+}
+
+.rodape .redes-sociais a:hover{
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+    transition: 0.3s;
+}
 .rodape .redes-sociais a:active{
     color: hsl(300, 69%, 71%);
     border: 1px solid hsl(300, 69%, 71%);
+}
+
+.rodape .redes-sociais a:hover{
+    color: hsl(300, 69%, 71%);
+    transition: 0.3s;
 }
 
 .textos:last-child{
