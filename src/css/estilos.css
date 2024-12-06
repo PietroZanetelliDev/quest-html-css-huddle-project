@@ -120,11 +120,6 @@ body{
     transition: 0.3s;
 }
 
-.rodape .redes-sociais a:hover{
-    color: hsl(300, 69%, 71%);
-    transition: 0.3s;
-}
-
 .textos:last-child{
     gap: 26px;
 }
