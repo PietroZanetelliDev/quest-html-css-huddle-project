@@ -28,8 +28,8 @@ Use os conhecimentos que aprendeu nos módulos de HTML avançado e CSS avançado
 
 ### Links
 
-- URL da solução: [https://github.com/PietroZanetelliDev/quest-html-css-huddle-project.git](https://github.com/PietroZanetelliDev/quest-html-css-huddle-project.git)
-- URL do site ativo: [https://pietrozanetellidev.github.io/quest-html-css-huddle-project/](https://pietrozanetellidev.github.io/quest-html-css-huddle-project/)
+- URL da solução: [https://github.com/PietroZanetelliDev/quest-html-css-huddle-project-base](https://github.com/PietroZanetelliDev/quest-html-css-huddle-project-base)
+- URL do site ativo: [https://pietrozanetellidev.github.io/quest-html-css-huddle-project-base/](https://pietrozanetellidev.github.io/quest-html-css-huddle-project-base/)
 
 ### Construído com
 
