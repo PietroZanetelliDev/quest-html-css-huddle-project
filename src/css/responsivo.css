@@ -1,0 +1,160 @@
+@media(max-width: 1350px){
+    body{
+        background-image: url(../images/bg-mobile.svg);
+        background-color: hsl(257, 40%, 49%);
+        background-position: fixed;
+        align-items: center;
+        background-size: 100%;
+        max-width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    body .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .header{
+        max-width: 750px;
+        height: 100px;
+        top: 10px;
+        /* justify-content: flex-start; */
+        display: flex;
+    }
+
+    .logo img{
+        height: 65px;
+        width: 260px;
+        position: relative;
+        bottom: 10px;
+        /* margin-left: 85px; */
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 90px;
+        gap: 80px;
+        /* position: relative;
+        left: 150px; */
+        max-width: 750px;
+    }
+
+    .container .imagem{
+        display: flex;
+        position: relative;
+        width: 610px;
+        height: 420px;
+        left: 20px;
+    }
+
+    .imagem img{
+        width: 615px;
+        height: 430px;
+    }
+
+    .container .textos{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .textos h1{
+        display: flex;
+        justify-content: center;
+        font-size: 49px;
+        color: #FFFFFF;
+        font-weight: 650;
+        padding: 0px 60px 0px 60px;
+        letter-spacing: px;
+        line-height: 70px;
+    }
+
+    .textos p{
+        font-size: 32px;
+        padding: 5px 45px 0px 45px;
+        line-height: 48px;
+        font-weight: 400;
+    }
+    
+
+    .botao{
+        margin-bottom: 50px;
+        margin-right: 5px;
+    }
+
+    .rodape{
+        display: flex;
+        max-width: 100%;
+        height: 100%;
+        justify-content: center;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .rodape ul{
+        margin-bottom: 60px;
+        font-size: 28px;
+    }
+
+    .rodape .redes-sociais a{
+        height: 55px;
+        width: 55px;
+    }
+
+    .botao{
+        margin-top: 25px;
+        width: 400px;
+        border-radius: 40px;
+        height: 80px;
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 750px){
+    body{
+        height: 1600px;
+        background-image: url(../images/bg-mobile.svg);
+    }
+    .logo{
+        margin-left: 65px;
+        margin-top: 75px;
+    }
+
+    .container{
+        margin-top: 115px;
+        /* gap: 80px; */
+    }
+    
+    .imagem{
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    .textos{
+        margin-right: 10px;
+        margin-top: 60px;
+    }
+
+    .textos h1{
+        line-height: 70px;
+    }
+
+    .textos:last-child{
+        gap: 24px;
+    }
+
+    .rodape ul{
+        position: relative;
+        top: 15px;
+        right: 3px;
+        gap: 20px;
+    }
+}
