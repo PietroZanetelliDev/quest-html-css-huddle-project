@@ -48,8 +48,8 @@
     .container .imagem{
         display: flex;
         position: relative;
-        width: 610px;
-        height: 420px;
+        max-width: 610px;
+        max-height: 420px;
         left: 20px;
     }
 
@@ -129,6 +129,7 @@
     }
 
     .container{
+        display: flex;
         margin-top: 115px;
         /* gap: 80px; */
     }
